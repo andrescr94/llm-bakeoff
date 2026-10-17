@@ -1,0 +1,970 @@
+{
+	"schemaVersion": 1,
+	"name": "followform-experiment-01",
+	"task": "form-generation",
+	"provenance": "recorded-run",
+	"note": "Followform experiment 01, run 2026-09-06 through OpenRouter: 4 models, 5 briefs, one round per prompt. Status, latency and cost per call are transcribed from that run's log; prompts, briefs and outputs belong to a private product and are omitted. The log kept no cost for calls that failed validation, so $/valid counts successful calls only.",
+	"createdAt": "2026-09-06T08:35:05.732Z",
+	"budgetUsd": 0.4,
+	"plan": {
+		"models": [
+			"openai/gpt-5.6-luna",
+			"qwen/qwen3.8-flash",
+			"deepseek/deepseek-v4-flash-0731",
+			"z-ai/glm-5.3-flash"
+		],
+		"variants": [
+			"v1-original-prompt",
+			"v2-options-rule"
+		],
+		"cases": [
+			"brief-1",
+			"brief-2",
+			"brief-3",
+			"brief-4",
+			"brief-5"
+		],
+		"rounds": 1
+	},
+	"records": [
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 17700,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001838
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 15900,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001648
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 12800,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001057
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 13300,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001285
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 13900,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001203
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "error",
+			"error": "Request timed out.",
+			"attempts": 1,
+			"latencyMs": 240500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "timeout",
+					"detail": "no answer within 240 s",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 214200,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.002893
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 99500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.003105
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 97700,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "options-only-on-choice",
+					"detail": "a long_text field carried options",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 16800,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000523
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 38900,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001023
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 13200,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000301
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 149800,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "unreadable-shape",
+					"detail": "the output could not be read as the expected structure",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 61600,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "options-only-on-choice",
+					"detail": "a long_text field carried options",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 20100,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000428
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 22400,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000334
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 18000,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "options-only-on-choice",
+					"detail": "a text field carried options",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 26400,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000288
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 23300,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000364
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v1-original-prompt",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 3500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "no-fields",
+					"detail": "the form had no fields",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v2-options-rule",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 12900,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001415
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v2-options-rule",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 9800,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.00119
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v2-options-rule",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 9600,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001446
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v2-options-rule",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 6900,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000969
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "openai/gpt-5.6-luna",
+			"variant": "v2-options-rule",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 9300,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001033
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 66500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.00269
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 50500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001977
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 97300,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.002871
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 197000,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.002895
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "qwen/qwen3.8-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 58100,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.002238
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v2-options-rule",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 11200,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.00041
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v2-options-rule",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 21000,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000287
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v2-options-rule",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 36600,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.004454
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v2-options-rule",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 22500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "usable-keys",
+					"detail": "a field key was empty",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "deepseek/deepseek-v4-flash-0731",
+			"variant": "v2-options-rule",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 42000,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.001804
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-1",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 25500,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000371
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-2",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 21200,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "has-title",
+					"detail": "the form had no name",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-3",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 17300,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": null
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"reason": "has-title",
+					"detail": "the form had no name",
+					"pass": false
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-4",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 75100,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.002462
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		},
+		{
+			"model": "z-ai/glm-5.3-flash",
+			"variant": "v2-options-rule",
+			"caseId": "brief-5",
+			"round": 1,
+			"status": "ok",
+			"attempts": 1,
+			"latencyMs": 15800,
+			"output": null,
+			"usage": {
+				"inputTokens": null,
+				"outputTokens": null,
+				"cachedTokens": null,
+				"costUsd": 0.000125
+			},
+			"scores": [
+				{
+					"scorer": "valid",
+					"required": true,
+					"pass": true
+				}
+			]
+		}
+	]
+}

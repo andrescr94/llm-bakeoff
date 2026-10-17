@@ -1,0 +1,1 @@
+Only `single_choice` and `multi_choice` carry options. Every other type, including `text` and `long_text`, has an empty `options` list, always. If an open question would benefit from examples of good answers, put them in its `help` sentence instead. A text field with options attached is rejected and the whole form fails.

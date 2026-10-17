@@ -1,0 +1,33 @@
+{
+  "name": "llm-bakeoff",
+  "version": "0.1.0",
+  "description": "Run several LLMs on the same task, score every output in code, and rank them on validity, latency, real cost and cache hits.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Andres Chaves Robles <andevcr@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrescr94/llm-bakeoff.git"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "bakeoff": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts --config examples/intake-form/bakeoff.config.ts --replay examples/intake-form/recorded/demo-run.json --out results/demo",
+    "case-study": "tsx src/cli.ts --report case-study/followform-exp01.results.json --out results/case-study",
+    "assets": "tsx scripts/render-assets.ts",
+    "fixture": "tsx scripts/make-demo-fixture.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}

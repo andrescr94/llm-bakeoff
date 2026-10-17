@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="893" viewBox="0 0 794 893" role="img" aria-labelledby="t d">
+  <title id="t">Output of npm run demo</title>
+  <desc id="d">llm-bakeoff · intake-form (demo) · replay of examples/intake-form/recorded/demo-run.json / ILLUSTRATIVE FIXTURE, not a measurement of any model. Fictional models; outputs, timings and / costs made by scripts/make-demo-fixture.ts. Scores are computed from the outputs by the real / scorers. /  / 4 models × 5 cases × 2 rounds × 2 prompts = 80 calls · reported cost $0.0944 · budget $1.00 /  / Prompt: v1-baseline /   #  model               valid        all rounds  median     p95  $ / valid  cache read /   1  demo/fast-json      10/10  100%         5/5   10.2s   13.4s   $0.00100         80% /   2  demo/slow-thinker    7/10   70%         3/5  145.8s  214.8s   $0.00299         79% /   3  demo/cheap-flash     6/10   60%         2/5   34.3s   38.9s   $0.00213         44% /   4  demo/cheapest-chat   5/10   50%         2/5   22.1s   29.3s   $0.00085          0% /  / Prompt: v2-options-rule /   #  model               valid        all rounds  median     p95  $ / valid  cache read /   1  demo/fast-json      10/10  100%         5/5    9.6s   11.4s   $0.00097         82% /   2  demo/cheap-flash     9/10   90%         4/5   30.6s   37.7s   $0.00145         46% /   3  demo/slow-thinker    9/10   90%         4/5   97.7s  210.8s   $0.00224         81% /   4  demo/cheapest-chat   8/10   80%         4/5   24.1s   27.9s   $0.00045          0% /  / Prompt comparison /   v1-baseline      28/40  70% /   v2-options-rule  36/40  90% /  / Why outputs failed (first required check that failed) /   v1-baseline      options-only-on-choice  8 /   v1-baseline      has-title               2 /   v1-baseline      not-json                1 /   v1-baseline      timeout                 1 /   v2-options-rule  has-title               2 /   v2-options-rule  timeout                 1 /   v2-options-rule  usable-keys             1 /  / Reported, not gating (passed / applied) /   v1-baseline      no-unasked-contact  37/38 /   v1-baseline      latency&lt;30s         24/39 /   v1-baseline      cache-hit           15/20 /   v2-options-rule  no-unasked-contact  38/39 /   v2-options-rule  latency&lt;30s         25/39 /   v2-options-rule  cache-hit           14/19 /  / Winner: demo/fast-json on v2-options-rule, 10/10 valid, $0.00097 per valid output, 9.6s median.</desc>
+  <rect width="794" height="893" rx="10" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="793" height="892" rx="10" fill="none" stroke="#30363d"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
+  <text x="397" y="25" text-anchor="middle" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">npm run demo</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">
+  <text x="24" y="66" fill="#f0f6fc" font-weight="700" xml:space="preserve">llm-bakeoff · intake-form (demo) · replay of examples/intake-form/recorded/demo-run.json</text>
+  <text x="24" y="85" fill="#e3b341" font-weight="400" xml:space="preserve">ILLUSTRATIVE FIXTURE, not a measurement of any model. Fictional models; outputs, timings and</text>
+  <text x="24" y="104" fill="#e3b341" font-weight="400" xml:space="preserve">costs made by scripts/make-demo-fixture.ts. Scores are computed from the outputs by the real</text>
+  <text x="24" y="123" fill="#e3b341" font-weight="400" xml:space="preserve">scorers.</text>
+  <text x="24" y="142" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="161" fill="#c9d1d9" font-weight="400" xml:space="preserve">4 models × 5 cases × 2 rounds × 2 prompts = 80 calls · reported cost $0.0944 · budget $1.00</text>
+  <text x="24" y="180" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="199" fill="#f0f6fc" font-weight="700" xml:space="preserve">Prompt: v1-baseline</text>
+  <text x="24" y="218" fill="#8b949e" font-weight="400" xml:space="preserve">  #  model               valid        all rounds  median     p95  $ / valid  cache read</text>
+  <text x="24" y="237" fill="#c9d1d9" font-weight="400" xml:space="preserve">  1  demo/fast-json      10/10  100%         5/5   10.2s   13.4s   $0.00100         80%</text>
+  <text x="24" y="256" fill="#c9d1d9" font-weight="400" xml:space="preserve">  2  demo/slow-thinker    7/10   70%         3/5  145.8s  214.8s   $0.00299         79%</text>
+  <text x="24" y="275" fill="#c9d1d9" font-weight="400" xml:space="preserve">  3  demo/cheap-flash     6/10   60%         2/5   34.3s   38.9s   $0.00213         44%</text>
+  <text x="24" y="294" fill="#c9d1d9" font-weight="400" xml:space="preserve">  4  demo/cheapest-chat   5/10   50%         2/5   22.1s   29.3s   $0.00085          0%</text>
+  <text x="24" y="313" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="332" fill="#f0f6fc" font-weight="700" xml:space="preserve">Prompt: v2-options-rule</text>
+  <text x="24" y="351" fill="#8b949e" font-weight="400" xml:space="preserve">  #  model               valid        all rounds  median     p95  $ / valid  cache read</text>
+  <text x="24" y="370" fill="#c9d1d9" font-weight="400" xml:space="preserve">  1  demo/fast-json      10/10  100%         5/5    9.6s   11.4s   $0.00097         82%</text>
+  <text x="24" y="389" fill="#c9d1d9" font-weight="400" xml:space="preserve">  2  demo/cheap-flash     9/10   90%         4/5   30.6s   37.7s   $0.00145         46%</text>
+  <text x="24" y="408" fill="#c9d1d9" font-weight="400" xml:space="preserve">  3  demo/slow-thinker    9/10   90%         4/5   97.7s  210.8s   $0.00224         81%</text>
+  <text x="24" y="427" fill="#c9d1d9" font-weight="400" xml:space="preserve">  4  demo/cheapest-chat   8/10   80%         4/5   24.1s   27.9s   $0.00045          0%</text>
+  <text x="24" y="446" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="465" fill="#f0f6fc" font-weight="700" xml:space="preserve">Prompt comparison</text>
+  <text x="24" y="484" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      28/40  70%</text>
+  <text x="24" y="503" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  36/40  90%</text>
+  <text x="24" y="522" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="541" fill="#f0f6fc" font-weight="700" xml:space="preserve">Why outputs failed (first required check that failed)</text>
+  <text x="24" y="560" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      options-only-on-choice  8</text>
+  <text x="24" y="579" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      has-title               2</text>
+  <text x="24" y="598" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      not-json                1</text>
+  <text x="24" y="617" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      timeout                 1</text>
+  <text x="24" y="636" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  has-title               2</text>
+  <text x="24" y="655" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  timeout                 1</text>
+  <text x="24" y="674" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  usable-keys             1</text>
+  <text x="24" y="693" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="712" fill="#f0f6fc" font-weight="700" xml:space="preserve">Reported, not gating (passed / applied)</text>
+  <text x="24" y="731" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      no-unasked-contact  37/38</text>
+  <text x="24" y="750" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      latency&lt;30s         24/39</text>
+  <text x="24" y="769" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v1-baseline      cache-hit           15/20</text>
+  <text x="24" y="788" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  no-unasked-contact  38/39</text>
+  <text x="24" y="807" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  latency&lt;30s         25/39</text>
+  <text x="24" y="826" fill="#c9d1d9" font-weight="400" xml:space="preserve">  v2-options-rule  cache-hit           14/19</text>
+  <text x="24" y="845" fill="#c9d1d9" font-weight="400" xml:space="preserve"></text>
+  <text x="24" y="864" fill="#56d364" font-weight="700" xml:space="preserve">Winner: demo/fast-json on v2-options-rule, 10/10 valid, $0.00097 per valid output, 9.6s median.</text>
+  </g>
+</svg>

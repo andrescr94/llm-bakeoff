@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="458" viewBox="0 0 880 458" role="img" aria-labelledby="t d">
+  <title id="t">Valid outputs per model, before and after one prompt paragraph</title>
+  <desc id="d">Real run, 2026-09-06. openai/gpt-5.6-luna: 5 then 5 of 5; qwen/qwen3.8-flash: 3 then 5 of 5; deepseek/deepseek-v4-flash-0731: 3 then 4 of 5; z-ai/glm-5.3-flash: 3 then 3 of 5. Total 14/20 (70%) to 17/20 (85%).</desc>
+  <rect width="880" height="458" rx="12" fill="#1a1a19"/>
+  <rect x="0.5" y="0.5" width="879" height="457" rx="12" fill="none" stroke="#383835"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="32" y="44" fill="#ffffff" font-size="20" font-weight="700">Valid outputs, before and after one prompt paragraph</text>
+    <text x="32" y="68" fill="#c3c2b7" font-size="13">Real run, 2026-09-06 · 4 models × 5 briefs per prompt · scored in code</text>
+    <path d="M32 90h10a4 4 0 0 1 4 4v4a4 4 0 0 1 -4 4h-10z" fill="#d95926"/><text x="52" y="101" fill="#c3c2b7" font-size="13">original prompt</text>
+    <path d="M170 90h10a4 4 0 0 1 4 4v4a4 4 0 0 1 -4 4h-10z" fill="#3987e5"/><text x="190" y="101" fill="#c3c2b7" font-size="13">+ one paragraph: options only on choice fields</text>
+    <text x="300" y="132" fill="#9c9b93" font-size="12">valid outputs (of 5)</text>
+    <text x="760" y="132" text-anchor="end" fill="#9c9b93" font-size="12">median time</text>
+    <text x="848" y="132" text-anchor="end" fill="#9c9b93" font-size="12">$ / valid</text>
+    <line x1="300" y1="142" x2="300" y2="360" stroke="#383835" stroke-width="1"/>
+    <text x="300" y="378" text-anchor="middle" fill="#9c9b93" font-size="12">0</text>
+    <line x1="360" y1="142" x2="360" y2="360" stroke="#383835" stroke-width="1"/>
+    <text x="360" y="378" text-anchor="middle" fill="#9c9b93" font-size="12">1</text>
+    <line x1="420" y1="142" x2="420" y2="360" stroke="#383835" stroke-width="1"/>
+    <text x="420" y="378" text-anchor="middle" fill="#9c9b93" font-size="12">2</text>
+    <line x1="480" y1="142" x2="480" y2="360" stroke="#383835" stroke-width="1"/>
+    <text x="480" y="378" text-anchor="middle" fill="#9c9b93" font-size="12">3</text>
+    <line x1="540" y1="142" x2="540" y2="360" stroke="#383835" stroke-width="1"/>
+    <text x="540" y="378" text-anchor="middle" fill="#9c9b93" font-size="12">4</text>
+    <line x1="600" y1="142" x2="600" y2="360" stroke="#383835" stroke-width="1"/>
+    <text x="600" y="378" text-anchor="middle" fill="#9c9b93" font-size="12">5</text>
+    <g>
+      <title>openai/gpt-5.6-luna: 5/5 valid on the original prompt, 5/5 with the options rule</title>
+      <text x="32" y="170" fill="#ffffff" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">openai/gpt-5.6-luna</text>
+      <path d="M300 152h296a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-296z" fill="#d95926"/>
+      <text x="606" y="164" fill="#c3c2b7" font-size="12">5/5</text>
+      <path d="M300 168h296a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-296z" fill="#3987e5"/>
+      <text x="606" y="180" fill="#ffffff" font-size="12" font-weight="600">5/5</text>
+      <text x="760" y="174" text-anchor="end" fill="#ffffff" font-size="14">10 s</text>
+      <text x="848" y="174" text-anchor="end" fill="#ffffff" font-size="14">$0.0012</text>
+    </g>
+    <g>
+      <title>qwen/qwen3.8-flash: 3/5 valid on the original prompt, 5/5 with the options rule</title>
+      <text x="32" y="224" fill="#ffffff" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">qwen/qwen3.8-flash</text>
+      <path d="M300 206h176a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-176z" fill="#d95926"/>
+      <text x="486" y="218" fill="#c3c2b7" font-size="12">3/5</text>
+      <path d="M300 222h296a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-296z" fill="#3987e5"/>
+      <text x="606" y="234" fill="#ffffff" font-size="12" font-weight="600">5/5</text>
+      <text x="760" y="228" text-anchor="end" fill="#ffffff" font-size="14">67 s</text>
+      <text x="848" y="228" text-anchor="end" fill="#ffffff" font-size="14">$0.0025</text>
+    </g>
+    <g>
+      <title>deepseek/deepseek-v4-flash-0731: 3/5 valid on the original prompt, 4/5 with the options rule</title>
+      <text x="32" y="278" fill="#ffffff" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">deepseek/deepseek-v4-flash-0731</text>
+      <path d="M300 260h176a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-176z" fill="#d95926"/>
+      <text x="486" y="272" fill="#c3c2b7" font-size="12">3/5</text>
+      <path d="M300 276h236a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-236z" fill="#3987e5"/>
+      <text x="546" y="288" fill="#ffffff" font-size="12" font-weight="600">4/5</text>
+      <text x="760" y="282" text-anchor="end" fill="#ffffff" font-size="14">23 s</text>
+      <text x="848" y="282" text-anchor="end" fill="#ffffff" font-size="14">$0.0017</text>
+    </g>
+    <g>
+      <title>z-ai/glm-5.3-flash: 3/5 valid on the original prompt, 3/5 with the options rule</title>
+      <text x="32" y="332" fill="#ffffff" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">z-ai/glm-5.3-flash</text>
+      <path d="M300 314h176a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-176z" fill="#d95926"/>
+      <text x="486" y="326" fill="#c3c2b7" font-size="12">3/5</text>
+      <path d="M300 330h176a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-176z" fill="#3987e5"/>
+      <text x="486" y="342" fill="#ffffff" font-size="12" font-weight="600">3/5</text>
+      <text x="760" y="336" text-anchor="end" fill="#ffffff" font-size="14">21 s</text>
+      <text x="848" y="336" text-anchor="end" fill="#ffffff" font-size="14">$0.0010</text>
+    </g>
+    <text x="32" y="414" fill="#ffffff" font-size="14" font-weight="600">All models: 14/20 (70%) → 17/20 (85%) valid</text>
+    <text x="32" y="436" fill="#9c9b93" font-size="12">Time and cost are with the paragraph; $ / valid counts successful calls only. Data: case-study/followform-exp01.results.json</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t">
+  <title id="t">llm-bakeoff: pick models by measurement, not vibes</title>
+  <rect width="1200" height="300" rx="16" fill="#fcfcfb"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="none" stroke="#e6e5e1"/>
+  <text x="64" y="128" fill="#0b0b0b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5">llm-bakeoff</text>
+  <text x="66" y="176" fill="#52514e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24">Pick models by measurement, not vibes.</text>
+  <text x="66" y="228" fill="#7b7a75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16">validity · latency · real cost · cache hits</text>
+  <text x="690" y="99.0" fill="#7b7a75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">1</text>
+  <text x="712.0" y="99.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">model-a</text>
+  <path d="M802.0 87.0h296.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-296.0z" fill="#efeeea"/>
+  <path d="M802.0 87.0h296.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-296.0z" fill="#2a78d6"/>
+  <text x="1112.0" y="99.0" fill="#0b0b0b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0" font-weight="700">10/10</text>
+  <text x="690" y="137.0" fill="#7b7a75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">2</text>
+  <text x="712.0" y="137.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">model-b</text>
+  <path d="M802.0 125.0h296.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-296.0z" fill="#efeeea"/>
+  <path d="M802.0 125.0h236.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-236.0z" fill="#2a78d6"/>
+  <text x="1112.0" y="137.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0" font-weight="400">8/10</text>
+  <text x="690" y="175.0" fill="#7b7a75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">3</text>
+  <text x="712.0" y="175.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">model-c</text>
+  <path d="M802.0 163.0h296.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-296.0z" fill="#efeeea"/>
+  <path d="M802.0 163.0h206.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-206.0z" fill="#2a78d6"/>
+  <text x="1112.0" y="175.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0" font-weight="400">7/10</text>
+  <text x="690" y="213.0" fill="#7b7a75" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">4</text>
+  <text x="712.0" y="213.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0">model-d</text>
+  <path d="M802.0 201.0h296.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-296.0z" fill="#efeeea"/>
+  <path d="M802.0 201.0h176.0a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-176.0z" fill="#2a78d6"/>
+  <text x="1112.0" y="213.0" fill="#52514e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14.0" font-weight="400">6/10</text>
+</svg>
